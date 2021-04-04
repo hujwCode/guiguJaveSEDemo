@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="guiguJaveSEDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/mavenTest</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>guiguJaveSEDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="guiguJaveSEDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.18" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mavenTest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="guiguJaveSEDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
