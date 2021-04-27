@@ -47,17 +47,17 @@ public class BlockingQueueDemo {
 //
 //        blockingQueue.take();
 //        blockingQueue.take();
-//        blockingQueue.put(4);
+////        blockingQueue.put(4);
 //
 //        blockingQueue.take();
 //        blockingQueue.take();
 //
 //        System.out.println(blockingQueue.toString());
 
-        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
-        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
+//        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
+//        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
+//        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
+//        System.out.println(blockingQueue.offer(1,2L,TimeUnit.SECONDS));
 
 
     }
